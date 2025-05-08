@@ -1,0 +1,24 @@
+package hello;
+
+public class computer{
+	  String color;
+	  String brand;
+	  int screenSize;
+	  double price;
+	  void powerOn(){
+	    System.out.println("The computer is on.");
+	}
+
+	// above I have created the computer class with it i can create a computer object that will have the attributes of color, brand, screen size, and its price. 
+	// it will also be able to call the method powerOn, which allows the computer to "turn on"
+
+	  public static void main(String[] args) {
+	computer myComputer = new computer();
+	myComputer.color = "gray";
+	myComputer.brand = "apple";
+	myComputer.screenSize = 14;
+	myComputer.price = 1500.23;
+	myComputer.powerOn();
+}
+}
+// Using the computer class i created an object called myComputer and added my own attributes to it. 
